@@ -1,0 +1,6 @@
+wtpsplit
+fastapi
+uvicorn
+transformers
+pyvi
+torch
