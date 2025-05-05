@@ -5,7 +5,7 @@ from pyvi import ViTokenizer
 
 
 class Vectorize:
-    def __init__(self,w2v_path='../data/vi.vec'):
+    def __init__(self,w2v_path='data/vi.vec'):
         self.w2v = KeyedVectors.load_word2vec_format(w2v_path)
         
     def vectorize(self,sentences):
