@@ -5,3 +5,6 @@ transformers
 pyvi
 torch
 gensim
+librosa
+google-genai
+dotenv
